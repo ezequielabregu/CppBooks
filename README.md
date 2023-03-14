@@ -329,3 +329,96 @@ No comments here. Some books are just valuable pieces of the history of C++ lang
 * [Modern C++ Design: Generic Programming and Design Patterns Applied](https://www.amazon.com/dp/0201704315) (Andrei Alexandrescu, 2001)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+
+## Beginner
+
+### Introductory, no previous programming experience
+
+ 1. [_Programming: Principles and Practice Using C++_](http://www.amazon.com/dp/0321992784/) (Bjarne Stroustrup) (**updated for C++11/C++14**) An introduction to programming using C++ by the creator of the language. A good read, that assumes no previous programming experience, but is not only for beginners.
+
+### Introductory, with previous programming experience
+
+ 1. [_C++ Primer_](http://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113) * (Stanley Lippman, Josée Lajoie, and Barbara E. Moo)  (**updated for C++11**) Coming at 1k pages, this is a very thorough introduction into C++ that covers just about everything in the language in a very accessible format and in great detail. The fifth edition (released August 16, 2012) covers C++11. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=1848) 
+
+ 1. [_A Tour of C++_](http://www.amazon.com/dp/0321958314/) (Bjarne Stroustrup) The "tour" is a quick (about 180 pages and 14 chapters) tutorial overview of all of standard C++ (language and standard library, **and using C++11**) at a moderately high level for people who already know C++ or at least are experienced programmers. This book is an extended version of the material that constitutes Chapters 2-5 of The C++ Programming Language, 4th edition.
+
+ 1. [_Accelerated C++_](http://www.amazon.com/dp/020170353X/) (Andrew Koenig and Barbara Moo)  This basically covers the same ground as the _C++ Primer_, but does so on a fourth of its space. This is largely because it does not attempt to be an introduction to *programming*, but an introduction to *C++* for people who've previously programmed in some other language. It has a steeper learning curve, but, for those who can cope with this, it is a very compact introduction into the language. (Historically, it broke new ground by being the first beginner's book to use a modern approach at teaching the language.) [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=1185)
+
+ 1. [_Thinking in C++_](http://www.amazon.com/dp/0139798099/) (Bruce Eckel)  Two volumes; is a tutorial style *free* set of intro level books. Downloads: [vol 1](http://www.mindviewinc.com/downloads/TICPP-2nd-ed-Vol-one.zip), [vol 2](http://www.mindviewinc.com/downloads/TICPP-2nd-ed-Vol-two.zip). Unfortunately they&rsquo;re marred by a number of trivial errors (e.g. maintaining that temporaries are automatically `const`), with no official errata list. A partial 3<sup>rd</sup> party errata list is available at (http://www.computersciencelab.com/Eckel.htm), but it&rsquo;s apparently not maintained.
+
+<sub>
+* Not to be confused with [_C++ Primer Plus_](http://www.amazon.com/dp/0672326973) (Stephen Prata), with a significantly less favorable [review](http://accu.org/index.php?module=bookreviews&func=search&rid=1744).
+</sub>
+
+### Best practices
+
+ 1. [_Effective C++_](http://www.amazon.com/dp/0321334876/) (Scott Meyers)  This was written with the aim of being the best second book C++ programmers should read, and it succeeded. Earlier editions were aimed at programmers coming from C, the third edition changes this and targets programmers coming from languages like Java. It presents ~50 easy-to-remember rules of thumb along with their rationale in a very accessible (and enjoyable) style. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=700)
+
+ 1. [_Effective STL_](http://www.amazon.com/dp/0201749629/) (Scott Meyers)  This aims to do the same to the part of the standard library coming from the STL what _Effective C++_ did to the language as a whole: It presents rules of thumb along with their rationale. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=67)
+
+---
+
+## Intermediate
+
+ 1. [_More Effective C++_](http://www.amazon.com/dp/020163371X/) (Scott Meyers) Even more rules of thumb than _Effective C++_. Not as important as the ones in the first book, but still good to know.
+  
+ 2. [_Exceptional C++_](http://www.amazon.com/dp/0201615622/) (Herb Sutter)  Presented as a set of puzzles, this has one of the best and thorough discussions of the proper resource management and exception safety in C++ through Resource Acquisition is Initialization (RAII) in addition to in-depth coverage of a variety of other topics including the pimpl idiom, name lookup, good class design, and the C++ memory model. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=209)
+
+ 3. [_More Exceptional C++_](http://www.amazon.com/dp/020170434X/) (Herb Sutter)  Covers additional exception safety topics not covered in _Exceptional C++_, in addition to discussion of effective object oriented programming in C++ and correct use of the STL. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=784)
+
+ 4. [_Exceptional C++ Style_](http://www.amazon.com/dp/0201760428/) (Herb Sutter)  Discusses generic programming, optimization, and resource management; this book also has an excellent exposition of how to write modular code in C++ by using nonmember functions and the single responsibility principle. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=107)
+
+ 5. [_C++ Coding Standards_](http://www.amazon.com/dp/0321113586/) (Herb Sutter and Andrei Alexandrescu) "Coding standards" here doesn't mean "how many spaces should I indent my code?"  This book contains 101 best practices, idioms, and common pitfalls that can help you to write correct, understandable, and efficient C++ code. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=1439)
+
+ 6. [_C++ Templates: The Complete Guide_](http://www.amazon.com/dp/0201734842/) (David Vandevoorde and Nicolai M. Josuttis) This is _the_ book about templates as they existed before C++11.  It covers everything from the very basics to some of the most advanced template metaprogramming and explains every detail of how templates work (both conceptually and at how they are implemented) and discusses many common pitfalls.  Has excellent summaries of the One Definition Rule (ODR) and overload resolution in the appendices. A [second edition](http://amzn.com/0321714121) is scheduled for 2016. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=506)
+
+ 7. [Effective Modern C++][1] (Scott Meyers) This book describes how to write truly great software using C++11 and C++14—i.e. using modern C++.
+
+---
+
+## Advanced
+
+  1. [_Modern C++ Design_](http://www.amazon.com/dp/0201704315/) (Andrei Alexandrescu)  A groundbreaking book on advanced generic programming techniques.  Introduces policy-based design, type lists, and fundamental generic programming idioms then explains how many useful design patterns (including small object allocators, functors, factories, visitors, and multimethods) can be implemented efficiently, modularly, and cleanly using generic programming. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=979)
+
+  1. [_C++ Template Metaprogramming_](http://www.amazon.com/dp/0321227255/) (David Abrahams and Aleksey Gurtovoy)
+
+  1. [_C++ Concurrency In Action_](http://www.amazon.com/dp/1933988770) (Anthony Williams) A book covering C++11 concurrency support including the thread library, the atomics library, the C++ memory model, locks and mutexes, as well as issues of designing and debugging multithreaded applications.
+
+  1. [_Advanced C++ Metaprogramming_](http://www.amazon.com/dp/1460966163) (Davide Di Gennaro) A pre-C++11 manual of TMP techniques, focused more on practice than theory.  There are a ton of snippets in this book, some of which are made obsolete by typetraits, but the techniques, are nonetheless, useful to know.  If you can put up with the quirky formatting/editing, it is easier to read than Alexandrescu, and arguably, more rewarding.  For more experienced developers, there is a good chance that you may pick up something about a dark corner of C++ (a quirk) that usually only comes about through extensive experience.
+
+---
+
+## Reference Style - All Levels
+
+  1. [_The C++ Programming Language_](http://www.amazon.com/dp/0201700735/) (Bjarne Stroustrup) (**updated for C++11**) The classic introduction to C++ by its creator. Written to parallel the classic K&R, this indeed reads very much alike it and covers just about everything from the core language to the standard library, to programming paradigms to the language's philosophy. (Thereby making the latest editions break the 1k page barrier.)  [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=620) The [fourth edition][2] (released on May 19, 2013) covers C++11.
+
+  1. [_C++ Standard Library Tutorial and Reference_](http://www.amazon.com/dp/0321623215/) (Nicolai Josuttis) (**updated for C++11**) _The_ introduction and reference for the C++ Standard Library. The second edition (released on April 9, 2012) covers C++11. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=1849)
+
+  1. [_The C++ IO Streams and Locales_](http://www.amazon.com/dp/0201183951) (Angelika Langer and Klaus Kreft)  There's very little to say about this book except that, if you want to know anything about streams and locales, then this is the one place to find definitive answers. [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=200)
+
+C++11 References:
+
+  1. [_The C++ Standard (INCITS/ISO/IEC 14882-2011)_](http://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2fISO%2fIEC+14882-2012) This, of course, is the final arbiter of all that is or isn't C++. Be aware, however, that it is intended purely as a reference for *experienced* users willing to devote considerable time and effort to its understanding. As usual, the first release was *quite* expensive ($300+ US), but it has now been released in electronic form for $60US
+
+  1. [_Overview of the New C++ (C++11/14) (PDF only)_](http://www.artima.com/shop/overview_of_the_new_cpp) (Scott Meyers) (**updated for C++1y/C++14**) These are the presentation materials (slides and some lecture notes) of a three-day training course offered by Scott Meyers, who's a highly respected author on C++. Even though the list of items is short, the quality is high.
+
+---
+
+## Classics / Older
+
+**Note:** Some information contained within these books may not be up-to-date or no longer considered best practice.
+
+  1. [_The Design and Evolution of C++_](http://www.amazon.com/dp/0201543303/) (Bjarne Stroustrup)  If you want to know _why_ the language is the way it is, this book is where you find answers. This covers everything _before the standardization_ of C++.
+
+  1. [_Ruminations on C++_](http://www.amazon.com/dp/0201423391/) - (Andrew Koenig and Barbara Moo) [[Review]](http://accu.org/index.php?module=bookreviews&func=search&rid=776)
+
+  1. [_Advanced C++ Programming Styles and Idioms_](http://www.amazon.com/dp/0201548550/) (James Coplien)  A predecessor of the pattern movement, it describes many C++-specific "idioms". It's certainly a very good book and still worth a read if you can spare the time, but quite old and not up-to-date with current C++. 
+
+  1. [_Large Scale C++ Software Design_](http://www.amazon.com/dp/0201633620) (John Lakos)  Lakos explains techniques to manage very big C++ software projects. Certainly a good read, if it only was up to date. It was written long before C++98, and misses on many features (e.g. namespaces) important for large scale projects. If you need to work in a big C++ software project, you might want to read it, although you need to take more than a grain of salt with it. The first volume of a new edition is [expected in 2015](http://www.amazon.com/dp/0201717069).
+
+  1. [_Inside the C++ Object Model_](http://www.amazon.com/dp/0201834545) (Stanley Lippman)  If you want to know how virtual member functions are commonly implemented and how base objects are commonly laid out in memory in a multi-inheritance scenario, and how all this affects performance, this is where you will find thorough discussions of such topics.
+
+
+  [1]: http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996
+  [2]: http://www.amazon.com/C-Programming-Language-4th/dp/0321563840/ref=sr_1_1?s=books&ie=UTF8&qid=1351907710&sr=1-1
