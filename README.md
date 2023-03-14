@@ -50,19 +50,6 @@ The next problem of C++ book lists is a diversity of C++ applied areas - C++ is 
 And finally, the comprehensive C++ list is expected to be up-to-date at least with the last language Standard, and just with new interesting books  - [this](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list) list is not bad, even though some choices are questionable, but it's already outdated, not including any books on C++20 one year after the new Standard release.
 The most effective way to achieve this state is a continuous community effort, that's why I choose Github as a medium of my C++ books list.
 
-### Controversy of Amazon as a primary reference
-
-I was extremely upset myself by the fact I have to use references almost exclusively to Amazon products, but unfortunately, I did not find any alternative source, being the same uniform, comprehensive and trustworthy. By providing these links I do not promote using Amazon services, I do not suggest using it for your purchases, and I do not insert any referrals. Maybe in the future, I will create a catalog of C++ books, providing complete information about listed books, such as author names and brief information about them, release year, annotation, and so on. 
-
-### Contributions
-
-I would welcome any reasonable contributions in the objective to create a comprehensive and up-to-date catalog of C++ books, for all kinds of C++ programmers, with any professional background and experience. While using or replicating the content, a Creative Commons Attribution-NonCommercial 4.0 International License is applied.
-
-### Expressing your gratitude
-
-I created this catalog and keep maintaining it in my spare time. If you wish to thank me for my efforts, you always can buy me a coffee.
-
-<a href="https://www.buymeacoffee.com/strategari6" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Reference and ISO Standard 
 
